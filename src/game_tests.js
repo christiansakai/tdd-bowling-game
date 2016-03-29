@@ -1,6 +1,6 @@
 describe('Game', function() {
-  var game;
   // http://en.wikipedia.org/wiki/Ten-pin_bowling#Play
+  var game;
 
   beforeEach(function() {
     game = new Game();

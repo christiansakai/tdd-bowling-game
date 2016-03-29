@@ -5,7 +5,8 @@
   "main": "game.js",
   "scripts": {
     "pretest": "rimraf coverage instrumented coverage*.json",
-    "test": "node ./node_modules/.bin/testem ci -l chrome"
+    "test": "node ./node_modules/.bin/testem ci -l chrome",
+    "test-server": "node ./node_modules/.bin/testem server -l chrome"
   },
   "author": "Christian Sakai <christianmsakai@gmail.com>",
   "devDependencies": {
