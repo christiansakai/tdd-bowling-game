@@ -6,7 +6,7 @@
   "scripts": {
     "pretest": "rimraf coverage instrumented coverage*.json",
     "test": "node ./node_modules/.bin/testem ci -l chrome",
-    "test-server": "node ./node_modules/.bin/testem server -l chrome"
+    "test-server": "node ./node_modules/.bin/testem server"
   },
   "author": "Christian Sakai <christianmsakai@gmail.com>",
   "devDependencies": {
