@@ -7,6 +7,7 @@ Learn the basic of Test Driven Development
 
 ## Instructions
 * `npm install -g testem`. Might need to do `sudo npm install -g testem`
+* `npm install`
 * `cd src` and run `testem`, see that all tests pass
 * go back up one directory to the root directory
 * run `npm test`
@@ -17,6 +18,7 @@ Learn the basic of Test Driven Development
 * when generating coverage report, run `npm test` in root directory instead
 
 ## More Explanation
+* `npm install` will install all the packages that is in `package.json`, listed under `dependencies` and `devDependencies`
 * `npm test` basically runs whatever command that is located under `test` property in `package.json`
 * Code coverage is an indicator of to what extent we are testing all the parts of our code.  It will have 100% coverage if it runs every single line of the code being tested. 
 * Why we need automated testing? Some reasons are:
